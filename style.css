@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: #fffaf5;
+    
+}
+.logoDiv{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logoDiv img:hover{
+    cursor: pointer;
+    transition:transform 3s  ;
+    transform: rotate(180deg); 
+}
+header{
+    width: 1236px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header p{
+    color: rgb(75, 75, 75);
+    font-size: 15px;
+}
+h3{
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Monsterat', sans-serif;
+    font-size: 17px;
+    color: #720418;
+    font-weight: 900;
+
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+header ul a{
+    text-decoration: none;
+    color:rgb(75, 75, 75);
+}
+header ul a:hover{
+    color: #E16A00 ;
+   font-weight: 600;
+   text-decoration: underline;
+}
+.userDiv{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+/* main area */
+.MainFirstDiv{
+    width: 1236px;
+    height: 800px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.MainFirstDiv h1{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 70px;
+    color: #241400;
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Monsterat', sans-serif;
+}
+.MainFirstDiv p{
+    color: #241400;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.MainFirstDiv button{
+    cursor: pointer;
+    width: 212px;
+    height: 50px;
+    background-color: #e16a00;
+    color: white;
+    border: none;
+    font-weight: 900;
+    line-height: 29px;
+    margin-top: 16px;
+    text-align: left;
+    padding-left: 16px;
+    font-family:  system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Monsterat', sans-serif;;
+}
